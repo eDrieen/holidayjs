@@ -4,6 +4,7 @@ body {
     font-family: 'Proza Libre', sans-serif;
     background-image: url("bg.jpeg");
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #nav {
@@ -29,6 +30,9 @@ h2 {
 
 pre {
     font-size: 14px;
+    background: rgba(25, 25, 25, .1);
+    width: 400px;
+    padding-right: 100px;
 }
 
 strong {
@@ -37,9 +41,6 @@ strong {
 
 #container {
     margin-top: 15px;
-    background: rgba(25, 25, 25, .1);
-    width: 30%;
-    height: 10vh;
     margin-bottom: 15px;
 }
 
