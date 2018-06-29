@@ -46,6 +46,10 @@ strong {
     font-size: 0.9em;
 }
 
+.projectContainer {
+    display: block;
+}    
+
 .days {
     margin-left: 30px;
     color: #626262;
