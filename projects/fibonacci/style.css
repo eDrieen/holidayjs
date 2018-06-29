@@ -25,18 +25,18 @@ body {
     background-color: red;
     color: white;
     text-align: center;
- }
+}
 
- a {
-     text-decoration: none;
-     color: white;
- }
+a {
+    text-decoration: none;
+    color: white;
+}
 
- #result {
-     width: 80%;
-     max-width: 80%;
-     height: 40%;
-     max-height: 40%;
-     margin: 25px auto 0 auto;
- }
-
+#result {
+    width: 80%;
+    max-width: 80%;
+    height: 40%;
+    max-height: 40%;
+    margin: 20px auto 0 auto;
+    font-size: 1em;
+}
