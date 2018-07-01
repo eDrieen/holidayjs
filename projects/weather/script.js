@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
          let infoCountry = weatherData.sys.country;
          title.textContent = "Weather in " + infoName + ", " + infoCountry;
 
-         imagex.src = 'http://openweathermap.org/img/w/' + weatherData.weather[0].icon + '.png';
+         imagex.src = 'https://openweathermap.org/img/w/' + weatherData.weather[0].icon + '.png';
 
          let tempConvert = weatherData.main.temp - 273.15;
          let temp = parseInt(tempConvert);
