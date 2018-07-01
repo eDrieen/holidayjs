@@ -33,28 +33,31 @@ document.addEventListener("DOMContentLoaded", function () {
 
    getWeather.addEventListener("click", function () {
 
-      apiCall = 'https://api.openweathermap.org/data/2.5/weather?q='+ cityName.value +'&appid=67d20ab634afb1a96d7b05640015ff7a';
+      if (cityName.value != "") {
+         apiCall = 'http://api.openweathermap.org/data/2.5/weather?q=' + cityName.value + '&appid=67d20ab634afb1a96d7b05640015ff7a';
 
-      $.getJSON(apiCall, weatherCallback);
+         $.getJSON(apiCall, weatherCallback);
 
-      function weatherCallback(weatherData) {
+         function weatherCallback(weatherData) {
 
-         let infoName = weatherData.name;
-         let infoCountry = weatherData.sys.country;
-         title.textContent = "Weather in " + infoName + ", " + infoCountry;
+            let infoName = weatherData.name;
+            let infoCountry = weatherData.sys.country;
+            title.textContent = "Weather in " + infoName + ", " + infoCountry;
 
-         imagex.src = 'https://openweathermap.org/img/w/' + weatherData.weather[0].icon + '.png';
+            imagex.src = 'http://openweathermap.org/img/w/' + weatherData.weather[0].icon + '.png';
 
-         let tempConvert = weatherData.main.temp - 273.15;
-         let temp = parseInt(tempConvert);
-         tempInfo.textContent = temp + "°C";
-         iconTemp.appendChild(tempInfo);
+            let tempConvert = weatherData.main.temp - 273.15;
+            let temp = parseInt(tempConvert);
+            tempInfo.textContent = temp + "°C";
+            iconTemp.appendChild(tempInfo);
 
-         let infoDescription = weatherData.weather[0].description;
-         description.textContent = infoDescription;
+            let infoDescription = weatherData.weather[0].description;
+            description.textContent = infoDescription;
 
+         }
+      } else {
+         console.log("Field cannot be empty");
       }
-
    });
 
 });
