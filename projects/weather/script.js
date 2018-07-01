@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
    getWeather.addEventListener("click", function () {
 
-      apiCall = 'http://api.openweathermap.org/data/2.5/weather?q='+ cityName.value +'&appid=67d20ab634afb1a96d7b05640015ff7a';
+      apiCall = 'https://api.openweathermap.org/data/2.5/weather?q='+ cityName.value +'&appid=67d20ab634afb1a96d7b05640015ff7a';
 
       $.getJSON(apiCall, weatherCallback);
 
