@@ -23,6 +23,7 @@ input {
 
 #functionContainer {
     text-align: center;
+    margin-top: 15px;
 }
 
 #footer {
@@ -38,9 +39,12 @@ input {
 #elementWeather {
     width: 300px;
     height: 150px;
+    margin: 25px auto 0 auto;
+    text-align: center;
 }
 
-#title, #iconInfo {
+#title,
+#iconInfo {
     font-weight: bold;
     font-size: 20px;
 }
@@ -48,13 +52,16 @@ input {
 #iconInfo {
     height: 45px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #iconTemp {
     line-height: 45px;
 }
 
-#description, #time{
+#description,
+#time {
     font-size: 13px;
 }
 
