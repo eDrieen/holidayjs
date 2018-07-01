@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Proza Libre', sans-serif;
+    background-image: url("krata.png");
+    background-position: center;
+    background-attachment: fixed;
+}
+
+input {
+    height: 25px;
+    text-align: center;
+}
+
+#container {
+    background: white;
+    width: 598px;
+    height: 600px;
+    margin: 25px auto 0 auto;
+    border: 1px solid black;
+    position: relative;
+}
+
+#functionContainer {
+    text-align: center;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+#elementWeather {
+    width: 300px;
+    height: 150px;
+}
+
+#title, #iconInfo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#iconInfo {
+    height: 45px;
+    display: flex;
+}
+
+#iconTemp {
+    line-height: 45px;
+}
+
+#description, #time{
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
