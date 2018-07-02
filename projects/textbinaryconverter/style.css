@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Proza Libre', sans-serif;
+    background-image: url("krata.png");
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.element {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+#title {
+    text-align: center;
+    margin: 25px 0 25px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    height: 75px;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+#container {
+    background: white;
+    width: 598px;
+    height: 600px;
+    margin: 25px auto 0 auto;
+    border: 1px solid black;
+    position: relative;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
