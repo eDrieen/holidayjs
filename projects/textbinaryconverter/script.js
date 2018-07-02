@@ -43,21 +43,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 });
-
-/*
-viewof u2 = textarea({
-  value: binary === "" ? "" : binary.split(" ")
-    .map(b => Number.parseInt(b, 2))
-    .join(" "),
-  title: "Unicode"
-})
- */
-
-/*
-textarea({
-  value: u2 === "" ? "" : u2.split(" ")
-    .map(u => String.fromCharCode(u))
-    .join(""),
-  title: "Text"
-})
- */
