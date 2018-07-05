@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Caesar Cipher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="box">
+        <div id="container">
+            <div class="element">
+                <div class="title">
+                    Plaintext
+                </div>
+                <div class="input">
+                    <textarea class="inputElement" id="plaintext"></textarea>
+                </div>
+            </div>
+            <div class="functionElement">
+                <div class="title">
+                    Caesar cipher
+                </div>
+                <div class="shift">
+                    <div class="step shiftelement">
+                        <span>-</span>
+                    </div>
+                    <input type="number" class="amount shiftelement" disabled>
+                    <div class="step shiftelement">
+                        <span>+</span>
+                    </div>
+                </div>
+                <div class="alphabet">
+                    abcdefghijklmnopqrstuvwxyz
+                    <hr>
+                </div>
+            </div>
+            <div class="element">
+                <div class="title">
+                    Ciphertext
+                </div>
+                <div class="input">
+                    <textarea class="inputElement" id="ciphertext"></textarea>
+                </div>
+            </div>
+        </div>
+        <div id="result"></div>
+    </div>
+    <div id="footer">
+        <p>&copy; 2018
+            <a href="https://github.com/eDrieen">eDrieen</a>
+            <p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
