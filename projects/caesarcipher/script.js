@@ -11,8 +11,6 @@ let cipherAmount = 1;
 
 function caesar(textString, amount) {
 
-      console.log(amount)
-
       if (isNaN(amount)) {
             alert("the value must be a number");
       }
