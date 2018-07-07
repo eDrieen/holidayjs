@@ -14,8 +14,8 @@ let pick = ["rock", "paper", "scissors"];
 
 function startGame(userPick, computerPick) {
 
-      player.src = userPick + ".png";
-      computer.src = computerPick + ".png";
+      player.src = "img/" + userPick + ".png";
+      computer.src = "img/" + computerPick + ".png";
 
       if ((userPick == "rock" && computerPick == "scissors") || (userPick == "paper" && computerPick == "rock") || (userPick == "scissors" && computerPick == "paper")) {
             playerPoints++;
