@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BMR Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet">
+</head>
+
+<body>
+    <div id="box">
+        <div class="title">BMR Calculator</div>
+        <div class="container">
+            <div class="input_group">
+                <div class="element_left">
+                    <label for class="element_text">Wiek: </label>
+                </div>
+                <div class="element_right">
+                    <input type="number" id="age" class="element_input">
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="element_left">
+                    <label for class="element_text">Płeć: </label>
+                </div>
+                <div class="element_right">
+
+                    <input type="radio" id="male" class="element_input inputRadio" name="ej" checked="checked">
+                    <label for="male">mężczyzna</label>
+
+                    <input type="radio" id="female" class="element_input inputRadio" name="ej">
+                    <label for="female">kobieta</label>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="element_left">
+                    <label for class="element_text">Aktywność: </label>
+                </div>
+                <div class="element_right">
+
+                    <select id="commonPhysical">
+                        <option id="lack">Brak aktywności, praca siedząca</option>
+                        <option id="low">niska aktywność (praca siedząca i 1-2 treningi w tygodniu)</option>
+                        <option id="average">średnia aktywność (praca siedząca i treningi 3-4 razy w tygodniu)</option>
+                        <option id="high">wysoka aktywność (praca fizyczna i 3-4 treningi w tygodniu)</option>
+                        <option id="veryHigh">bardzo wysoka aktywność (zawodowi sportowcy, osoby codziennie trenujące)</option>
+                    </select>
+
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="element_left">
+                    <label for class="element_text">Waga: </label>
+                </div>
+                <div class="element_right">
+                    <input type="number" id="kg" class="element_input">
+                    <span class="element_text">kg</span>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="element_left">
+                    <span class="element_text">Wzrost: </span>
+                </div>
+                <div class="element_right">
+                    <input type="number" id="cm" class="element_input">
+                    <span class="element_text">cm</span>
+                </div>
+            </div>
+            <div class="element_right">
+                <button type="submit" id="element_submit">Oblicz</button>
+            </div>
+            <div class="element_right">
+                <p class="info_title">Wynik:</p>
+                <span id="outcomeBmr"></span>
+                <br>
+                <span id="outcomeCpm"></span>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <p>&copy; 2018
+            <a href="https://github.com/eDrieen">eDrieen</a>
+            <p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Proza Libre', sans-serif;
+    background-image: url("krata.png");
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#box {
+    background: white;
+    width: 598px;
+    height: 600px;
+    margin: 25px auto 0 auto;
+    border: 1px solid black;
+    position: relative;
+}
+
+.title {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(242, 244, 246);
+    border: 1px solid rgb(169, 169, 169);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 380px;
+    height: 538px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.input_group {
+    display: flex;
+    padding-top: 15px;
+}
+
+.element_left {
+    width: 130px;
+    font-size: 20px;
+}
+
+.element_input {
+    height: 20px;
+}
+
+#element_submit {
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+}
+
+#outcomeBmr,
+#outcomeCpm {
+    font-weight: bold;
+}
+
+#commonPhysical {
+    width: 220px;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
