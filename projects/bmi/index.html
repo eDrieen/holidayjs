@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BMI Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet">
+</head>
+
+<body>
+    <div id="box">
+        <div class="title">BMI Calculator</div>
+        <div class="container">
+            <div class="input_group">
+                <div class="element_left">
+                    <label for class="element_text">Waga: </label>
+                </div>
+                <div class="element_right">
+                    <input type="number" id="kg" class="element_input">
+                    <span class="element_text">kg</span>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="element_left">
+                    <span class="element_text">Wzrost: </span>
+                </div>
+                <div class="element_right">
+                    <input type="number" id="cm" class="element_input">
+                    <span class="element_text">cm</span>
+                </div>
+            </div>
+            <div class="element_right">
+                <button type="submit" id="element_submit">Oblicz</button>
+            </div>
+            <div class="element_right">
+                <p class="info_title">Zakresy wartości BMI:</p>
+                <ul class="element_info_list">
+                    <li>mniej niż 16 - wygłodzenie</li>
+                    <li>16 - 16.99 - wychudzenie</li>
+                    <li>17 - 18.49 - niedowaga</li>
+                    <li>18.5 - 24.99 - wartość prawidłowa</li>
+                    <li>25 - 29.99 - nadwaga</li>
+                    <li>30 - 34.99 - I stopień otyłości</li>
+                    <li>35 - 39.99 - II stopień otyłości</li>
+                    <li>powyżej 40 - otyłość skrajna</li>
+                </ul>
+            </div>
+        </div>
+        <div class="result">
+            <span id="outcome_text"></span>
+            <br>
+            <button type="submit" id="calculateAgain">Oblicz ponownie</button>
+        </div>
+    </div>
+    <div id="footer">
+        <p>&copy; 2018
+            <a href="https://github.com/eDrieen">eDrieen</a>
+            <p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
