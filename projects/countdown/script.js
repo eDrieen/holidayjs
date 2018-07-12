@@ -51,6 +51,7 @@ function countdown() {
       minutesValue.textContent = m;
       secondsValue.textContent = s;
 
-
+ dateInterval = setInterval(countdown, 1000);
 }
-dateInterval = setInterval(countdown, 1000);
+
+countdown();
