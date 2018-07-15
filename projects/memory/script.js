@@ -28,7 +28,7 @@ function time() {
       location.reload();
    }
 
-   timer.textContent = `Time left: ${currentTime}`;
+   timer.textContent = `Time left: ${currentTime} sec`;
    currentTime--;
 
 }
@@ -60,7 +60,7 @@ function cardClick() {
             if (gameResult == endGame) {
                clearInterval(t);
                const resultTime = gameTime - currentTime;
-               alert(`Your time: ${resultTime}`);
+               alert(`Your time: ${resultTime} sec`);
                location.reload();
             }
             moves++;
