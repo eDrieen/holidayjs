@@ -38,7 +38,7 @@ function currencyCallback(currencyData) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-   apiCall = "http://api.nbp.pl/api/exchangerates/tables/a?format=json";
+   apiCall = "https://api.nbp.pl/api/exchangerates/tables/a?format=json";
    $.getJSON(apiCall, currencyCallback);
 
    exchange_USD_full = document.getElementById("exchange_USD_full");
