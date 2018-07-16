@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pokemory Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="dice" id="dice_first"></div>
+        <div class="dice" id="dice_second"></div>
+        <div class="title">action</div>
+        <div class="action">
+            <div class="action_title">low/mid/high</div>
+            <table class="action_table">
+                <tr>
+                    <td>
+                        <span class="multiplier">x
+                            <sub>2.2</sub>
+                        </span>
+                    </td>
+                    <td>
+                        <span class="multiplier">x
+                            <sub>5.5</sub>
+                        </span>
+                    </td>
+                    <td>
+                        <span class="multiplier">x
+                            <sub>2.2</sub>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="number">2 - 6</td>
+                    <td class="number">7</td>
+                    <td class="number">8 - 12</td>
+                </tr>
+                <tr>
+                    <td class="table_inputs">
+                        <input type="radio" id="1" name="git">
+                    </td>
+                    <td class="table_inputs">
+                        <input type="radio" id="2" name="git">
+                    </td>
+                    <td class="table_inputs">
+                        <input type="radio" id="3" name="git">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="action">
+            <div class="action_title">doubles</div>
+            <table class="action_table">
+                <tr>
+                    <td>
+                        <span class="multiplier">x
+                            <sub>5.5</sub>
+                        </span>
+                    </td>
+                    <td>
+                        <span class="multiplier">x
+                            <sub>1.15</sub>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="number">Yes</td>
+                    <td class="number">No</td>
+                </tr>
+                <tr>
+                    <td class="table_inputs">
+                        <input type="radio" id="4" name="git">
+                    </td>
+                    <td class="table_inputs">
+                        <input type="radio" id="5" name="git">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="bet">
+            <table class="bet_table">
+                <tr>
+                    <td class="bet_title">balance</td>
+                    <td class="bet_title">stake</td>
+                    <td class="bet_title">earnings</td>
+                </tr>
+                <tr>
+                    <td class="bet_sub" id="balance"></td>
+                    <td class="bet_sub">
+                        <input type="number" class="bet_number" id="stake">
+                    </td>
+                    <td class="bet_sub">
+                        <button type="submit" id="bet_button" class="btn">SELECT BET</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="footer">
+        <p>&copy; 2018
+            <a href="https://github.com/eDrieen">eDrieen</a>
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
