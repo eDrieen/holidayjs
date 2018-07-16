@@ -161,3 +161,18 @@ a {
     text-decoration: none;
     color: white;
 }
+
+@media (orientation: portrait) {
+    .container {
+        width: 90vw;
+    }
+    .bet * {
+        font-size: 15px;
+    }
+    .dice {
+        margin-top: 5px;
+    }
+    .number {
+        font-size: 15px;
+    }
+}
