@@ -124,11 +124,11 @@ input[type="radio"] {
 }
 
 .slot2 {
-    background-image: url("/img/2.png");
+    background-image: url("img/2.png");
 }
 
 .slot3 {
-    background-image: url("/img/3.png");
+    background-image: url("img/3.png");
 }
 
 .slot4 {
@@ -136,11 +136,11 @@ input[type="radio"] {
 }
 
 .slot5 {
-    background-image: url("/img/5.png");
+    background-image: url("img/5.png");
 }
 
 .slot6 {
-    background-image: url("/img/6.png");
+    background-image: url("img/6.png");
 }
 
 #footer {
