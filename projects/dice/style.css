@@ -175,4 +175,7 @@ a {
     .number {
         font-size: 15px;
     }
+    .bet_number {
+        width: 125px;
+    }
 }
