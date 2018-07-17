@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202938;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 28%;
+    left: 34%;
+    width: 550px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.tableContainer {
+    margin: 0 auto;
+}
+
+.square {
+    height: 80px;
+    width: 80px;
+    font-size: 45pt;
+    text-align: center;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+}
+
+#footer p {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
