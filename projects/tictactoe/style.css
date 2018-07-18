@@ -11,8 +11,10 @@ body {
 
 .container {
     position: absolute;
-    top: 28%;
-    left: 34%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
     width: 550px;
     margin: auto;
     color: white;
