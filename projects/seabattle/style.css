@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202938;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    position: absolute;
+    bottom: 300px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.container input {
+    display: block;
+    margin: 0 auto;
+}
+
+.container button {
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+.table_container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 50px auto 0 auto;
+    width: 524px;
+    height: 500px;
+    text-align: center;
+    color: white;
+}
+
+.table_container tr td {
+    width: 53px;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+}
+
+#footer p {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
