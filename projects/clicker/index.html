@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Clicker Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header_title">Clicker Game</div>
+            <div class="clicker"></div>
+        </div>
+        <div class="main">
+            <div class="info">
+                <span id="money"></span>
+                <span id="money_info">Money per 1 second: 0</span>
+            </div>
+            <div class="main_container">
+                <div class="element">
+                    <div class="element_name">Autoclicker</div>
+                    <div class="element_lvl_autoclicker"></div>
+                    <div class="element_buy">
+                        <input type="button" value="Buy for 2" id="autoclicker_buy"> </div>
+                </div>
+                <div class="element">
+                    <div class="element_name">-20 ms</div>
+                    <div class="element_lvl_speedup"></div>
+                    <div class="element_buy">
+                        <input type="button" value="Buy for 2" id="speedup_buy"> </div>
+                </div>
+                <div class="element">
+                    <div class="element_name">x2 money per click</div>
+                    <div class="element_lvl_x2"></div>
+                    <div class="element_buy">
+                        <input type="button" value="Buy for 2" id="x2_buy"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <p>&copy; 2018
+            <a href="https://github.com/eDrieen">eDrieen</a>
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
