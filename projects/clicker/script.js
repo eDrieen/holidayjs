@@ -14,7 +14,7 @@ let element_lvl_x2 = null;
 let rateAddon = 20;
 
 let game_info = {
-      money: 55555,
+      money: 0,
 };
 
 let addons = {
