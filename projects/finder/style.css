@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202938;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    position: absolute;
+    bottom: 300px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 900px;
+    height: 500px;
+    border: 5px solid white;
+}
+
+.element {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background: red;
+    position: relative;
+    margin: 35px;
+    cursor: pointer;
+}
+
+.elements_container {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.start_btn {
+    margin: 17% auto 17% auto;
+    width: 400px;
+    height: 200px;
+    display: block;
+    font-size: 50px;
+}
+
+.nothing {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background: white;
+    position: relative;
+    margin: 35px;
+    cursor: pointer;
+}
+
+.treasure {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    position: relative;
+    margin: 35px;
+    cursor: pointer;
+    background-image: url("coins.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 3.2em;
+    background-color: gold;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+}
+
+#footer p {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
