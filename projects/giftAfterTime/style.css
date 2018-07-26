@@ -1,0 +1,80 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: black;
+}
+
+#box {
+    background: white;
+    width: 598px;
+    height: 600px;
+    margin: 25px auto 0 auto;
+    border: 1px solid black;
+    position: relative;
+}
+
+.title {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(242, 244, 246);
+    border: 1px solid rgb(169, 169, 169);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#result {
+    color: green;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 50px;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 250px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.countdownContainer {
+    position: absolute;
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    background: #ddd;
+    border: 1px solid #999;
+    padding: 10px;
+    box-shadow: 0 0 5px 3px #ccc;
+}
+
+.info {
+    font-size: 60px
+}
+
+.info td:last-child {
+    font-size: 35px;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
