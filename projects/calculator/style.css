@@ -1,0 +1,125 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: black;
+}
+
+#container {
+    position: relative;
+    width: 400px;
+    background-color: #6D6D6D;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 0px 0px #5A5A5A;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    width: 20%;
+}
+
+table button {
+    width: 100%;
+    height: 70px;
+    font-size: 50px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+    color: #363636;
+    border: 1px solid gray;
+    font-weight: bold;
+    box-shadow: inset -2px -5px 0px 0px #DEDEDE;
+    cursor: pointer;
+}
+
+table button:active {
+    border: 2px solid #333;
+    box-shadow: inset 0 2px 2px #000, 0px 2px #E6E6E6;
+    background-color: #CDCDCD;
+}
+
+#inputLabel {
+    height: 60px;
+    overflow-x: scroll;
+    font-size: 40px;
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 16px;
+    padding-left: 16px;
+    background-color: #DADADA;
+    border-radius: 10px;
+    box-shadow: inset 0px -7px 0px 0px #C4C4C4;
+    max-width: 150px;
+    color: #363636;
+}
+
+#clear {
+    background-color: #d12a2a;
+    box-shadow: inset -2px -5px 0px 0px #d11717;
+}
+
+#status {
+    width: 150px;
+    box-shadow: none;
+    color: white;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: -40px;
+    cursor: pointer;
+}
+
+#equal {
+    background-color: #FF9900;
+    box-shadow: inset -2px -5px 0px 0px #CC6600;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.on {
+    background-color: green;
+}
+
+.off {
+    background-color: red;
+}
+
+#title {
+    font-size: 70px;
+    font-weight: bold;
+    color: #CCFF00;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#sub {
+    font-size: 30px;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
