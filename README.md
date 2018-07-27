@@ -2,11 +2,11 @@
 
 I'm Adrian Kijewski and I will run my project that aims 
 to improve my skills in JavaScript. I will create a series           
-of 40 projects in which I will learn many new things.
+of 30 projects in which I will learn many new things.
 
 ## The Rules
 
-1. I will do 40 Javascript exercises.
+1. I will do 30 Javascript exercises.
 2. The challenge will end on the last day of the holiday.
 3. Create reasonable tasks that can be used in later projects.
 
@@ -40,3 +40,4 @@ See this list also [on the site](https://edrieen.github.io/holidayjs/)
 24. [Clicker Game](https://edrieen.github.io/holidayjs/projects/clicker/)
 25. [Treasure Finder Game](https://edrieen.github.io/holidayjs/projects/finder/)
 26. [Gift After Time](https://edrieen.github.io/holidayjs/projects/giftAfterTime/)
+27. [Calculator](https://edrieen.github.io/holidayjs/projects/calculator/)
