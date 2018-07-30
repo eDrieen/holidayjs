@@ -1,0 +1,52 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: black;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+
+.title {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: cornsilk;
+    font-size: 20px;
+}
+
+.quest {
+    text-align: center;
+    color: gray;
+    border: 1px solid gray;
+}
+
+.answer {
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
